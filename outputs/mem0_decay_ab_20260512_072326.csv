@@ -1,0 +1,41 @@
+project,case_id,rank,demo_id,score,memory
+decay_off,breakfast,1,breakfast_stale,0.3144,Alice prefers a sesame bagel for breakfast on weekdays.
+decay_off,breakfast,2,breakfast_fresh,0.3136,Alice prefers oatmeal with blueberries for breakfast on weekdays.
+decay_off,breakfast,3,project_stale,0.2175,Alice is focused on the Atlas prototype project.
+decay_off,breakfast,4,allergy_evergreen,0.2153,Alice is allergic to penicillin.
+decay_off,breakfast,5,project_fresh,0.209,Alice is focused on the Apollo billing migration project.
+decay_off,project,1,project_stale,0.3283,Alice is focused on the Atlas prototype project.
+decay_off,project,2,project_fresh,0.2935,Alice is focused on the Apollo billing migration project.
+decay_off,project,3,allergy_evergreen,0.2348,Alice is allergic to penicillin.
+decay_off,project,4,allergy_noise_recent,0.2242,Alice recently read a trivia article about penicillin discovery.
+decay_off,project,5,breakfast_fresh,0.2096,Alice prefers oatmeal with blueberries for breakfast on weekdays.
+decay_off,support,1,support_fresh,0.3386,Customer Globex has an unresolved SSO support ticket from this week.
+decay_off,support,2,support_stale,0.3385,Customer Globex has an unresolved SSO support ticket from last quarter.
+decay_off,support,3,project_fresh,0.2094,Alice is focused on the Apollo billing migration project.
+decay_off,support,4,project_stale,0.1878,Alice is focused on the Atlas prototype project.
+decay_off,support,5,allergy_evergreen,0.1834,Alice is allergic to penicillin.
+decay_off,allergy,1,allergy_evergreen,0.3179,Alice is allergic to penicillin.
+decay_off,allergy,2,allergy_noise_recent,0.2618,Alice recently read a trivia article about penicillin discovery.
+decay_off,allergy,3,project_stale,0.2432,Alice is focused on the Atlas prototype project.
+decay_off,allergy,4,project_fresh,0.2427,Alice is focused on the Apollo billing migration project.
+decay_off,allergy,5,breakfast_fresh,0.2254,Alice prefers oatmeal with blueberries for breakfast on weekdays.
+decay_on,breakfast,1,breakfast_fresh,0.4694,Alice prefers oatmeal with blueberries for breakfast on weekdays.
+decay_on,breakfast,2,project_fresh,0.3128,Alice is focused on the Apollo billing migration project.
+decay_on,breakfast,3,allergy_noise_recent,0.2983,Alice recently read a trivia article about penicillin discovery.
+decay_on,breakfast,4,support_fresh,0.2105,Customer Globex has an unresolved SSO support ticket from this week.
+decay_on,breakfast,5,breakfast_stale,0.1259,Alice prefers a sesame bagel for breakfast on weekdays.
+decay_on,project,1,project_fresh,0.4394,Alice is focused on the Apollo billing migration project.
+decay_on,project,2,allergy_noise_recent,0.3357,Alice recently read a trivia article about penicillin discovery.
+decay_on,project,3,breakfast_fresh,0.3138,Alice prefers oatmeal with blueberries for breakfast on weekdays.
+decay_on,project,4,breakfast_stale,0.2931,Alice prefers a sesame bagel for breakfast on weekdays.
+decay_on,project,5,support_fresh,0.2482,Customer Globex has an unresolved SSO support ticket from this week.
+decay_on,support,1,support_fresh,0.507,Customer Globex has an unresolved SSO support ticket from this week.
+decay_on,support,2,project_fresh,0.3135,Alice is focused on the Apollo billing migration project.
+decay_on,support,3,allergy_noise_recent,0.2292,Alice recently read a trivia article about penicillin discovery.
+decay_on,support,4,breakfast_stale,0.2135,Alice prefers a sesame bagel for breakfast on weekdays.
+decay_on,support,5,breakfast_fresh,0.2077,Alice prefers oatmeal with blueberries for breakfast on weekdays.
+decay_on,allergy,1,allergy_noise_recent,0.392,Alice recently read a trivia article about penicillin discovery.
+decay_on,allergy,2,project_fresh,0.3634,Alice is focused on the Apollo billing migration project.
+decay_on,allergy,3,breakfast_fresh,0.3375,Alice prefers oatmeal with blueberries for breakfast on weekdays.
+decay_on,allergy,4,breakfast_stale,0.325,Alice prefers a sesame bagel for breakfast on weekdays.
+decay_on,allergy,5,support_fresh,0.2736,Customer Globex has an unresolved SSO support ticket from this week.
